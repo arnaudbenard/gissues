@@ -12,7 +12,7 @@ If you add GitHub issues url in your comments, it because quickly a hassle to ch
 
 ## Ambitions
 
-I would like to group the issues by projects in order to see which dependency is causing the most problems in your project. My ambition is to make this a bad package detector. Issues number isn't the main factor for bad packages, it could simply be assiociated with popularity (take with a pinch of salt).
+I would like to group the issues by projects in order to see which dependency is causing the most problems in your project. My ambition is to make this a bad package detector. The number of issues isn't the main factor for bad packages, it could simply be caused by popularity (take with a pinch of salt).
 
 ## How to use
 
