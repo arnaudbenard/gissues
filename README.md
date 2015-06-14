@@ -2,6 +2,8 @@
 
 Gissues reads your files and looks for github issues. It will then display them in a table in your console.
 
+![screenshot](https://cloud.githubusercontent.com/assets/1458008/8150668/de1ed6d4-12ea-11e5-89f3-153e7e39faec.png)
+
 ## Status
 
 This is a WIP, simple proof of concept.
