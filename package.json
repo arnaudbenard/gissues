@@ -1,0 +1,22 @@
+{
+  "name": "gissues",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/test"
+  },
+  "author": "Arnaud Benard <arnaud@streethub.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "cli-table": "^0.3.1",
+    "esprima": "^2.2.0",
+    "lodash": "^3.9.3",
+    "octonode": "^0.6.18",
+    "url-pattern": "^0.9.0"
+  }
+}
