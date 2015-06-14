@@ -2,6 +2,23 @@
 
 Gissues reads your files and looks for github issues. It will then display them in a table in your console.
 
+Source: https://github.com/arnaudbenard/gissues/blob/master/test/sample/example.js
+
+```js
+// Example 
+// Broken because https://github.com/strongloop/express/issues/2671
+function foo() {
+    return 'bar';
+}
+/**
+ * Some function
+ * https://github.com/strongloop/express/issues/2670
+ * @return {String} Example
+ */
+function bar() {
+    return 'foo';
+}
+```
 ![screenshot](https://cloud.githubusercontent.com/assets/1458008/8150668/de1ed6d4-12ea-11e5-89f3-153e7e39faec.png)
 
 ## Status
