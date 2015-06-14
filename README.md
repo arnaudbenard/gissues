@@ -2,6 +2,8 @@
 
 Gissues reads your files and looks for github issues. It will then display them in a table in your console.
 
+## Example
+
 Source: https://github.com/arnaudbenard/gissues/blob/master/test/sample/example.js
 
 ```js
