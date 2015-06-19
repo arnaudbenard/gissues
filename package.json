@@ -1,22 +1,30 @@
 {
   "name": "gissues",
-  "version": "1.0.0",
+  "version": "0.0.0-semantically-released",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha test/test"
+    "test": "mocha test/test",
+    "prepublish": "semantic-release pre",
+    "postpublish": "semantic-release post"
   },
   "author": "Arnaud Benard <arnaud@streethub.com>",
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^2.2.5"
+    "mocha": "^2.2.5",
+    "semantic-release": "^3.4.1"
   },
   "dependencies": {
     "bluebird": "^2.9.30",
     "cli-table": "^0.3.1",
     "esprima": "^2.2.0",
     "lodash": "^3.9.3",
+    "node-dir": "^0.1.8",
     "octonode": "^0.6.18",
     "url-pattern": "^0.9.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnaudbenard/gissues"
   }
 }
