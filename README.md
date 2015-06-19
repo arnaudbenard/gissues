@@ -2,6 +2,27 @@
 
 Gissues reads your files and looks for github issues. It will then display them in a table in your console.
 
+## Example
+
+Source: https://github.com/arnaudbenard/gissues/blob/master/test/sample/example.js
+
+```js
+// Example 
+// Broken because https://github.com/strongloop/express/issues/2671
+function foo() {
+    return 'bar';
+}
+/**
+ * Some function
+ * https://github.com/strongloop/express/issues/2670
+ * @return {String} Example
+ */
+function bar() {
+    return 'foo';
+}
+```
+![screenshot](https://cloud.githubusercontent.com/assets/1458008/8150668/de1ed6d4-12ea-11e5-89f3-153e7e39faec.png)
+
 ## Status
 
 This is a WIP, simple proof of concept.
@@ -12,7 +33,7 @@ If you add GitHub issues url in your comments, it because quickly a hassle to ch
 
 ## Ambitions
 
-I would like to group the issues by projects in order to see which dependency is causing the most problems in your project. My ambition is to make this a bad package detector. Issues number isn't the main factor for bad packages, it could simply be assiociated with popularity (take with a pinch of salt).
+I would like to group the issues by projects in order to see which dependency is causing the most problems in your project. My ambition is to make this a bad package detector. The number of issues isn't the main factor for bad packages, it could simply be caused by popularity (take with a pinch of salt).
 
 ## How to use
 
